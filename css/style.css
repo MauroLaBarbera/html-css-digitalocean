@@ -1,3 +1,22 @@
+/* UTILITY */
+body {
+    font-weight: 600;
+}
+
+.padding {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.pad-top {
+    padding-top: 3rem;
+}
+
+.pad-bot {
+    padding-bottom: 3rem;
+}
+
+
 
 /* NAVBAR */
 .nav-bar{
@@ -34,5 +53,83 @@ padding:20px;
 
 /* HERO */
 .hero {
-    background-image: url();
+    background-image: url(../img/bg-banner-home.jpg);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 55px;
+}
+
+.hero p {
+    color: #ccc;
+    font-size: 22px;
+}
+
+/* CARD-G */
+.card-g {
+    max-width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.card-g img {
+    width: 20px;
+    position: absolute;
+    left: 25px;
+}
+
+
+.hero .card-g h3 {
+    color: dodgerblue;
+}
+
+.hero .card-g p {
+    color: #19305d;
+}
+
+/* SPONSOR */
+.sponsor {
+    background: #f3f5f9;
+    color: #747f9a;
+}
+
+.logo-sponsor {
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
+    float: left;
+}
+
+.logo-sponsor img {
+    width: 175px;
+    vertical-align: middle;
+    height: 100px;
+    margin: 10px;
+}
+
+.sponsor .link {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* MEDIAQUERY TABLET SPONSOR */
+@media screen and (min-width:768px) {
+    .logo-sponsor {
+        width: calc(100% / 6 - 20px);
+    }
+
+    .logo-sponsor img {
+        width: 110px;
+    }
+}
+
+/* MEDIAQUERY DESKTOP SPONSOR */
+@media screen and (min-width:1150px) {
+    .logo-sponsor img {
+        width: 175px;
+    }
 }
