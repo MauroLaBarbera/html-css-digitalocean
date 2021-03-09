@@ -23,7 +23,9 @@ h1, h2, h3, h4,li {
     padding-bottom: 3rem;
 }
 
-
+.font-siz {
+    font-size: 12px;
+}
 
 /* NAVBAR */
 .nav-bar{
@@ -209,4 +211,26 @@ padding:20px;
     top: 40%;
     color: #031c4e;
     cursor: pointer;
+}
+
+/* REGIONS */
+.regions {
+    background: linear-gradient(#0047c5,#00219c);
+}
+
+.regions .container h1 {
+    color: #fff;
+}
+
+.regions .container .bord {
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+} 
+
+.regions .container .bord-not {
+    border: none;
+}
+
+.regions .bord .col-xs-2:first-child {
+    color: #fff;
 }
