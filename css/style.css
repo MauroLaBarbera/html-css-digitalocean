@@ -1,9 +1,12 @@
 /* UTILITY */
 body {
-    font-weight: 500;
-    font-size: 17px;
+    font-weight: 600;
+    font-size: 16px;
 }
 
+h1, h2, h3, h4,li {
+    font-weight: 600;
+}
 
 .padding {
     padding-top: 5rem;
@@ -38,19 +41,20 @@ padding:20px;
     padding-top: 3px;
 }
 
-.nav-bar .nav-content {
-    display: inline-block;
-}
-
-
-
 .nav-bar ul li {
     display: inline-block;
     list-style: none;
     line-height: 35px;
-    font-weight: bold;
     color: #031c4e;
     padding-right: 10px;
+}
+
+.nav-bar .btn {
+    padding: 7px;
+    border-radius: 6px;
+    border: 1px solid #096fff;
+    color: #096fff;
+    font-weight: 600;
 }
 
 /* HERO */
@@ -86,11 +90,15 @@ padding:20px;
 
 
 .hero .card-g h3 {
-    color: dodgerblue;
+    color: #096fff;
 }
 
 .hero .card-g p {
     color: #19305d;
+}
+
+.terms {
+    padding-top: 10px;
 }
 
 /* SPONSOR */
@@ -139,7 +147,6 @@ padding:20px;
 .deploy h2, 
 .deploy h4 {
     color: #19305d;
-    font-weight: bold;
 }
 
 .deploy .row .col-xs-12 ul {
@@ -156,4 +163,9 @@ padding:20px;
 
 .deploy .container img {
     padding-bottom: 10px;
+    padding-top: 5px,
+}
+
+.deploy ul:last-child {
+    margin-bottom: 25px;
 }
