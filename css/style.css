@@ -2,10 +2,12 @@
 body {
     font-weight: 600;
     font-size: 16px;
+    color: #747f9a;
 }
 
 h1, h2, h3, h4,li {
     font-weight: 600;
+    color: #031c4e;
 }
 
 .padding {
@@ -144,11 +146,6 @@ padding:20px;
     color: #747f9a;
 }
 
-.deploy h2, 
-.deploy h4 {
-    color: #19305d;
-}
-
 .deploy .row .col-xs-12 ul {
     padding-left: 0;
 }
@@ -159,6 +156,7 @@ padding:20px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
+    color: #747f9a;
 }
 
 .deploy .container img {
@@ -168,4 +166,47 @@ padding:20px;
 
 .deploy ul:last-child {
     margin-bottom: 25px;
+}
+
+/* DESIGNED */
+.designed {
+    background: #f3f5f9;
+}
+
+.designed .carousel img {
+    max-width: 100%;
+}
+
+.designed .row .indicators {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #328cfd;
+    cursor: pointer;
+}
+
+.designed .row .indicators.full {
+    background: #328cfd;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel .fa-chevron-left {
+    position: absolute;
+    left: -50px;
+    font-size: 50px;
+    top: 40%;
+    cursor: pointer;
+}
+
+.carousel .fa-chevron-right {
+    position: absolute;
+    right: -50px;
+    font-size: 50px;
+    top: 40%;
+    color: #031c4e;
+    cursor: pointer;
 }
