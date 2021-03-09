@@ -5,7 +5,7 @@ body {
     color: #747f9a;
 }
 
-h1, h2, h3, h4,li {
+h1, h2, h3, h4, h5, li {
     font-weight: 600;
     color: #031c4e;
 }
@@ -179,7 +179,8 @@ padding:20px;
     max-width: 100%;
 }
 
-.designed .row .indicators {
+/* INDICATORS */
+ .indicators {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -188,7 +189,7 @@ padding:20px;
     cursor: pointer;
 }
 
-.designed .row .indicators.full {
+ .indicators.full {
     background: #328cfd;
 }
 
@@ -196,7 +197,8 @@ padding:20px;
     position: relative;
 }
 
-.carousel .fa-chevron-left {
+/* ARROW */
+ .fa-chevron-left {
     position: absolute;
     left: -50px;
     font-size: 50px;
@@ -204,7 +206,7 @@ padding:20px;
     cursor: pointer;
 }
 
-.carousel .fa-chevron-right {
+.fa-chevron-right {
     position: absolute;
     right: -50px;
     font-size: 50px;
@@ -233,4 +235,20 @@ padding:20px;
 
 .regions .bord .col-xs-2:first-child {
     color: #fff;
+}
+
+
+/* ROCKERBOX */
+
+.development {
+    background: #f3f5f9;
+}
+
+.rockerbox {
+    margin-top: 70px;
+    background: #fff;
+}
+
+.rockerbox img {
+    width: 100%;
 }
