@@ -1,7 +1,9 @@
 /* UTILITY */
 body {
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 17px;
 }
+
 
 .padding {
     padding-top: 5rem;
@@ -110,11 +112,6 @@ padding:20px;
     margin: 10px;
 }
 
-.sponsor .link {
-    font-size: 18px;
-    font-weight: bold;
-}
-
 
 /* MEDIAQUERY TABLET SPONSOR */
 @media screen and (min-width:768px) {
@@ -132,4 +129,31 @@ padding:20px;
     .logo-sponsor img {
         width: 175px;
     }
+}
+
+/* DEPLOY E SCALE */
+.deploy {
+    color: #747f9a;
+}
+
+.deploy h2, 
+.deploy h4 {
+    color: #19305d;
+    font-weight: bold;
+}
+
+.deploy .row .col-xs-12 ul {
+    padding-left: 0;
+}
+
+.deploy li {
+    list-style: none;
+    border-left: 1px solid currentColor;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.deploy .container img {
+    padding-bottom: 10px;
 }
