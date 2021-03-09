@@ -5,7 +5,7 @@ body {
     color: #747f9a;
 }
 
-h1, h2, h3, h4, h5, li {
+h1, h2, h3, h4, h5 {
     font-weight: 600;
     color: #031c4e;
 }
@@ -270,4 +270,23 @@ padding:20px;
     border-radius: 6px;
     background: #fff;
     border : none;
+}
+
+/* FOOTER */
+.footer {
+    background: #031c4e;
+}
+
+.footer a {
+    color: #747f9a;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .about li:first-child a{
+    color: #fff;
+    font-weight: 600;
 }
