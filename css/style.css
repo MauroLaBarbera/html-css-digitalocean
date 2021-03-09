@@ -252,3 +252,22 @@ padding:20px;
 .rockerbox img {
     width: 100%;
 }
+
+/* STARTED */
+.started {
+    background: linear-gradient(#0047c5,#00219c);
+}
+
+.started h1 {
+    color: #fff;
+    font-size: 55px;
+}
+
+/* STARTED*/
+.started .btn-create {
+    padding: 10px;
+    color: #328cfd;
+    border-radius: 6px;
+    background: #fff;
+    border : none;
+}
